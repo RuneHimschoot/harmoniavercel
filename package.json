@@ -1,0 +1,15 @@
+{
+  "name": "harmonia-demo",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "launch": "node scripts/launch.mjs",
+    "test": "node tests/domain.test.mjs",
+    "build": "npm test && node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
